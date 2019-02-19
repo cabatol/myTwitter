@@ -85,6 +85,7 @@
                                             </constraints>
                                         </imageView>
                                     </subviews>
+                                    <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
                                     <constraints>
                                         <constraint firstItem="anS-iv-c8h" firstAttribute="leading" secondItem="BCs-xn-isD" secondAttribute="leading" id="NJI-k6-phF"/>
                                         <constraint firstItem="H2M-ov-5aM" firstAttribute="trailing" secondItem="BCs-xn-isD" secondAttribute="trailingMargin" id="PyM-zd-q3y"/>
@@ -97,6 +98,7 @@
                                         <constraint firstItem="tqL-cb-0MI" firstAttribute="leading" secondItem="anS-iv-c8h" secondAttribute="trailing" constant="8" symbolic="YES" id="zOK-tX-pEU"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
                                 <connections>
                                     <outlet property="profileImage" destination="anS-iv-c8h" id="Qn1-HX-Q5c"/>
                                     <outlet property="tweetContent" destination="H2M-ov-5aM" id="g6c-SO-okd"/>
@@ -142,7 +144,6 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="U8H-OT-YjT"/>
                                 </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -169,6 +170,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tweetTextView" destination="R3I-qr-XSM" id="0SJ-fd-t0n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SOe-f0-OuQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
